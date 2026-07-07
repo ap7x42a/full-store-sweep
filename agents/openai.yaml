@@ -1,0 +1,4 @@
+interface:
+  display_name: "Full Store Sweep"
+  short_description: "Verify state claims only after enumerating every plausible evidence store."
+  default_prompt: "Use Full Store Sweep before confirming or refuting state claims; enumerate stores, query each, and downgrade partial checks to scoped negatives."
